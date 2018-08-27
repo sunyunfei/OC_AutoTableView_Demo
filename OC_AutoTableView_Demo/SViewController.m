@@ -30,8 +30,7 @@ static NSString *tCell = @"TestCell";
     
     
     [self.tableView registerNib:[UINib nibWithNibName:tCell bundle:nil] forCellReuseIdentifier:tCell];
-    _tableView.rowHeight = UITableViewAutomaticDimension;
-    _tableView.estimatedRowHeight = 100;
+
     
     _dCell = [self.tableView dequeueReusableCellWithIdentifier:tCell];
 }

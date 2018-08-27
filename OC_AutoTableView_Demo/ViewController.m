@@ -45,7 +45,7 @@ static NSString *tCell = @"TestCell";
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+
     return UITableViewAutomaticDimension;
 }
 
